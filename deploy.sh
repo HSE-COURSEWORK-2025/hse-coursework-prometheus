@@ -1,0 +1,1 @@
+kubectl apply -n hse-coursework-health -f prometheus-k8s.yaml
