@@ -31,6 +31,11 @@ data:
         static_configs:
           - targets: ['hse-coursework-health.ru']
 
+      - job_name: 'test-app'
+        metrics_path: /test-app/metrics
+        static_configs:
+          - targets: ['hse-coursework-health.ru']
+
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
