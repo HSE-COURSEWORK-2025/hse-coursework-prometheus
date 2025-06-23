@@ -2,6 +2,8 @@
 
 Этот репозиторий содержит манифесты и скрипты для деплоя Prometheus в Kubernetes-кластере.
 
+![](https://github.com/HSE-COURSEWORK-2025/hse-coursework-prometheus/blob/master/prometheus_demo.jpg)
+
 ## Структура
 - `prometheus-k8s.yaml` — манифесты для деплоя Prometheus, PVC и сервиса
 - `deploy.sh` — автоматический деплой Prometheus
